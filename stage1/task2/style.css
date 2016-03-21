@@ -1,13 +1,16 @@
 * {
 	padding: 0;
 	margin: 0;
-	font-family: Sans-serif;
+	font-family: "microsoft yahei";
 }
 
 body {
 	background-color: #ccc;
 }
 
+img {
+	margin: 10px 0;
+}
 
 #nav {
 	background-color: #333;
@@ -44,23 +47,37 @@ body {
 	background: #ccc;
 }
 
-.para {
+article {
 	margin: 20px 20px;
 	background-color: #fff;
 	padding: 30px;
-	border-bottom: 0.5px solid #111; 
-	border-right: 0.5px solid #111; 
+	box-shadow: 2px 2px 2px #aaa;
 }
 
-.para h3, .para h4, .para h5 {
+
+.author , .time{
+	color: #999;
+}
+
+article h1, article h2 , .para_info{
 	margin: 10px 0;
 }
 
-.para p {
-	text-indent: 2em;
+article h1 {
+	font-size: 1.5em;
 }
 
-.para li {
+article h2 {
+	font-size: 1.3em;
+	color: #777;
+}
+
+article p {
+	text-indent: 2em;
+	font-size: 15px;
+}
+
+.pics li {
 	border: 0.5px solid #000;
 	list-style: none;
 	width: 200px;
@@ -68,7 +85,46 @@ body {
 	text-align: center;
 }
 
-#pic img {
+.pics img {
 	width: 140px;
 	height: 140px;
+}
+
+#rank {
+	padding: 15px 40px;
+}
+
+article table {
+	width: 100%;
+}
+
+article table tr th {
+	background-color: #333;
+	color: #fff;
+}
+
+#tableEnd {
+	background-color: #ccc;
+}
+
+aside {
+	margin: 10px 20px;
+	padding: 20px;
+}
+
+aside h4 {
+	padding: 10px 0;
+	text-indent: 1em;
+	border-left: 4px solid #ccc;
+}
+
+aside form {
+	text-align: center;
+}
+
+footer {
+	background-color: #000;
+	color: #fff;
+	text-align: center;
+	line-height: 6em;
 }
