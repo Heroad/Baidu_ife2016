@@ -48,7 +48,7 @@ img {
 }
 
 article {
-	margin: 20px 20px;
+	margin: 20px 100px;
 	background-color: #fff;
 	padding: 30px;
 	box-shadow: 2px 2px 2px #aaa;
@@ -108,18 +108,53 @@ article table tr th {
 }
 
 aside {
-	margin: 10px 20px;
+	margin: 20px 100px;
 	padding: 20px;
+	background-color: #fff;
+	box-shadow: 2px 2px 2px #aaa;
 }
 
-aside h4 {
-	padding: 10px 0;
+aside form div{
+	line-height:30px;
+}
+
+aside h2 {
+	padding: 10px 0 5px 0;
 	text-indent: 1em;
 	border-left: 4px solid #ccc;
 }
 
+
+aside textarea {
+	height: 70px; 
+	width: 400px; 
+}
+
+aside button {
+	width: 100%;
+	margin: 10px auto;
+	background-color: rgb(28, 99, 221);
+	line-height: 3em; 
+	border-radius: 10px; 
+	color: #fff;
+}
+
 aside form {
-	text-align: center;
+	width: 100%;
+}
+
+.text-right{text-align:right}
+
+.aright, .aleft {
+	float: left;
+}
+
+.aright {
+	width: 66.6%;
+}
+
+.aleft {
+	width: 33.3%;
 }
 
 footer {
