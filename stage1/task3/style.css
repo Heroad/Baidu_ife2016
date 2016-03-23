@@ -4,6 +4,11 @@ body {
 	font-size: 16px;
 }
 
+img {
+	height: 80px;
+	width: 80px;
+}
+
 .wrapper, .left, .middle, .right{
 	background-color: #fff;
 	border: 1px solid #999;
@@ -19,6 +24,7 @@ body {
 	min-width: 600px;
 	overflow: auto;
 	position: relative;
+	height: 500px;
 }
 
 .left {
