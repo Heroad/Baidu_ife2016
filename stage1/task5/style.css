@@ -1,0 +1,172 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: "microsoft yahei";
+}
+
+body {
+	background-color: #ccc;
+	min-width: 750px;
+}
+
+img {
+	margin: 10px 0;
+}
+
+#nav {
+	background-color: #515151;
+	width: 100%;
+	margin: 0 auto;
+	height: 60px;
+}
+
+#nav img {
+	float:left;
+	margin: 5px 10px;
+}
+
+#nav ul {
+	float:right;
+	margin: 0 10px;
+	height: 60px;
+}
+
+#nav ul li {
+	display: inline-block;
+	margin: 20px 10px;
+	height: 15px;
+	line-height: 15px;
+	text-align: center;
+}
+
+#nav ul li a{
+	text-decoration: none;
+	cursor: pointer;
+	color: #fff;
+}
+
+#nav ul li a:hover{
+	background: #ccc;
+}
+
+footer {
+	background-color: #000;
+	color: #fff;
+	text-align: center;
+	line-height: 6em;
+}
+
+article {
+	margin: 20px;
+	background-color: #fff;
+	padding: 30px;
+	box-shadow: 2px 2px 2px #aaa;
+	min-width: 280px;
+}
+
+article h1, article h2 , .para_info{
+	margin: 10px 0;
+}
+
+article h1 {
+	font-size: 1.5em;
+}
+
+article h2 {
+	font-size: 1.3em;
+	color: #777;
+}
+
+article p {
+	text-indent: 2em;
+	font-size: 15px;
+}
+
+article table {
+	width: 100%;
+}
+
+article table tr th {
+	background-color: #333;
+	color: #fff;
+}
+
+
+aside {
+	margin: 20px;
+	padding: 20px;
+	background-color: #fff;
+	box-shadow: 2px 2px 2px #aaa;
+	width: 500px;
+	float: right;
+}
+
+aside form div{
+	line-height:2em;
+}
+
+aside h2 {
+	padding: 10px 0 5px 0;
+	text-indent: 1em;
+	border-left: 4px solid #ccc;
+}
+
+aside textarea {
+	height: 70px; 
+	width: 200px; 
+}
+
+aside button {
+	width: 100%;
+	margin: 10px auto;
+	background-color: rgb(28, 99, 221);
+	line-height: 3em; 
+	border-radius: 10px; 
+	color: #fff;
+}
+
+.left_page {
+	margin-right: 560px;
+}
+
+.text-right{
+	text-align:right;
+}
+
+.aright, .aleft {
+	float: left;
+}
+
+.aright {
+	width: 66%;
+}
+
+.aleft {
+	width: 33%;
+}
+
+.author , .time{
+	color: #999;
+}
+
+
+.pics li {
+	border: 0.5px solid #000;
+	list-style: none;
+	width: 200px;
+	margin: 10px 40px;
+	text-align: center;
+}
+
+.pics img {
+	width: 140px;
+	height: 140px;
+}
+
+#rank {
+	padding: 15px 40px;
+}
+
+#tableEnd {
+	background-color: #ccc;
+}
