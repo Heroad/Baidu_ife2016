@@ -1,0 +1,30 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.box {
+	background-color: #ccc;
+	height: 200px;
+	width: 400px;
+	position: absolute;
+	top: 25%;
+	left: 25%;
+}
+
+.round1, .round2{
+	height: 50px;
+	width: 50px;
+	background-color: #fc0;
+}
+
+.round1 {
+	border-bottom-right-radius: 50px;
+}
+
+.round2 {
+	border-top-left-radius: 50px;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
