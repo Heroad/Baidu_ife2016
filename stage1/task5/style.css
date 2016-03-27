@@ -2,6 +2,7 @@
 	padding: 0;
 	margin: 0;
 	font-family: "microsoft yahei";
+	font-size: 15px;
 }
 
 body {
@@ -97,12 +98,12 @@ aside {
 	padding: 20px;
 	background-color: #fff;
 	box-shadow: 2px 2px 2px #aaa;
-	width: 500px;
+	width: 350px;
 	float: right;
 }
 
 aside form div{
-	line-height:2em;
+	line-height:2.5em;
 }
 
 aside h2 {
@@ -126,7 +127,7 @@ aside button {
 }
 
 .left_page {
-	margin-right: 560px;
+	margin-right: 410px;
 }
 
 .text-right{
@@ -138,11 +139,11 @@ aside button {
 }
 
 .aright {
-	width: 66%;
+	width: 60%;
 }
 
 .aleft {
-	width: 33%;
+	width: 40%;
 }
 
 .author , .time{
@@ -153,14 +154,15 @@ aside button {
 .pics li {
 	border: 0.5px solid #000;
 	list-style: none;
-	width: 200px;
-	margin: 10px 40px;
+	width: 140px;
+	margin: 10px;
 	text-align: center;
+	display: inline-block;
 }
 
 .pics img {
-	width: 140px;
-	height: 140px;
+	width: 80px;
+	height: 80px;
 }
 
 #rank {
