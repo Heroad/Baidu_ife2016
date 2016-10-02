@@ -1,0 +1,345 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Microsoft Yahei';
+	font-size: 12px;
+}
+
+.container {
+	height: 1386px;
+	width: 892px;
+	margin: 0 auto;
+	padding: 0 44px;
+}
+header #url {
+	height: 61px;
+	width: 110px;
+	background: #D55D5C;
+	position: relative;
+}
+header #url p {
+	color: #fff;
+	font-family: "SimHei";
+	position: absolute;
+	bottom: 4px;
+	left: 4px;
+}
+header {
+	margin-bottom: 30px;
+	position: relative;
+}
+header .data {
+	font-family: "SimHei";
+	color: #d45d5c;
+	position: absolute;
+	right: 0;
+	bottom: 4px;
+}
+header hr {
+	border: 2px #938e8c solid;
+	width: 892px;
+}
+
+.img1 {
+	height: 301px;
+	width: 641px;
+}
+.img1 {
+	position: relative;
+}
+.img1 .img1_l {
+	height: 301px;
+	width: 191px;
+	position: absolute;
+	top: 0;
+	background: #428c59;
+	opacity: 0.5;
+}
+.img1 .img1_r {
+	height: 301px;
+	width: 191px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: #cc7680;
+	opacity: 0.5;
+}
+
+aside {
+	float: right;
+	width: 203px;
+}
+
+aside hr {
+	border: 2px #cc8091 solid;
+}
+aside h1 {
+	color: #000;
+	text-decoration: underline;
+	font-size: 18px;
+	line-height: 30px;
+}
+aside p {
+	font-family: "STKaiti";
+	color: #676767;
+	line-height: 10px;
+}
+aside h2 {
+  font-size: 116px;
+  color: #75b86b;
+  font-style: italic;
+}
+aside .aside_down h5, aside .aside_down h3,aside .aside_down h4 {
+	color: #cc8091;
+}
+aside .aside_down h5 {
+	font-size: 55px;
+}
+aside .aside_down {
+	position: relative;
+}
+aside .aside_down h3 {
+	font-size: 21px;
+	position: absolute;
+	bottom: 20px;
+	left: 100px;
+}
+aside .aside_down h4 {
+	position: absolute;
+	bottom: 12px;
+	left: 100px;
+}
+
+.part2 {
+	margin-top: 40px;
+	width: 640px;
+	height: 200px;
+}
+.part2 .two_left, .part2 .two_right, .part2 .two_middle {
+	float: left;
+	margin-right: 5%;
+}
+.part2 .two_left {
+	width: 40%;
+}
+.part2 .two_left h1, .part2 .two_middle h1, .part2 .two_right h1 {
+	font-size: 16px;
+	text-decoration: underline;
+	margin-bottom: 10px;
+}
+.part2 .two_middle {
+	width: 22%;
+}
+.part2 .two_right {
+	width: 22%;
+}
+.part2 .two_left h1 {
+	color: #418c59;
+}
+.part2 .two_middle h1 {
+	color: #d2994f;
+}
+.part2 .two_right h1 {
+	color: #cc7680;
+}
+.part2 .two_left p {
+	color: #767777;
+	font-family: 'SimHei';
+	line-height: 16px;
+}
+.part2 .two_middle p {
+	color: #231815;
+	line-height: 16px;
+}
+.part2 .two_right p {	
+	line-height: 20px;
+}
+.part2 .two_right div p span {
+	color: #cd4a48;
+	font-style: italic;
+	opacity: 0.7;
+}
+.part2 .two_right div p {
+	line-height: 20px;
+}
+.part2 .two_right div {
+	padding: 10px;
+}
+
+
+.part3 {
+	margin-top: 30px;
+	width: 892px;
+	margin-bottom: 30px;
+	overflow: hidden;
+}
+.part3 .three_left {
+	float: left;
+	width: 415px;
+}
+.part3 .three_right {
+	float: right;
+}
+.part3 .three_left .first1 {
+	color: #f5e327;
+	font-weight: bold;
+	font:italic 72px "SimHei";
+	margin-right: 30px;
+}
+.part3 .three_left h1 {
+	color: #11456b;
+	font-family: 'SimHei';
+	font-size: 42px;
+}
+.part3 .three_left h2 {
+	color: #11456b;
+	font-family: 'SimHei';
+	font-size: 33px;
+}
+.part3 .three_left .indent2 {
+	text-indent: 2em;
+}
+.part3 .three_left hr {
+	border: 2px #11456b solid;
+	margin: 20px 0;
+}
+.part3 .three_left .first2 {
+	font-size: 70px;
+	color: #f5e327;
+	float: left;
+	margin-right: 10px;
+}
+.part3 .three_left p{
+	color: #767777;
+	font-family: 'SimHei';
+	line-height: 16px;
+}
+.part3 .three_left img {
+	float: right;
+	padding: 15px;
+}
+
+.part3 .three_right {
+	width: 458px;
+}
+.part3 .three_right .img3 {
+	position: relative;
+	margin-bottom: 30px;
+}
+.part3 .three_right .img3 .img3_down {
+	width: 458px;
+	height: 61px;
+	position: absolute;
+	bottom: 0;
+	background: rgba(0,0,0,0.3);
+}
+.part3 .three_right .img3 .img3_down .img3_text {
+	margin: 8px 0 8px 50px;	
+	text-indent: 1em;
+	height: 44px;
+	border-left: 3px #72b16a solid;
+	line-height: 44px;
+}
+.part3 .three_right .img3 .img3_down .img3_text .img3_span1 {
+	font-size: 26px;
+	color: #fff;
+}
+.part3 .three_right .img3 .img3_down .img3_text .img3_span2 {
+	font-style: italic;
+	color: #72b16a;
+	letter-spacing: 140%;
+}
+
+.part3 .three_right .three_right_down {
+	background: #eeedd6;
+	height: 318px;
+	width: 458px;
+}
+.part3 .three_right .three_right_down ul {
+	padding: 20px;
+}
+.part3 .three_right .three_right_down ul li {
+	list-style: none;
+	margin-bottom: 20px;
+}
+.part3 .three_right .three_right_down ul li .triangle {
+	width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-bottom: 10px solid #10456b;
+	display: inline-block;	
+}
+.part3 .three_right .three_right_down ul li .three_right_span1 {
+	font-size: 16px;
+	color: #5a5b5b;
+	font-family: '宋体';
+}
+.part3 .three_right .three_right_down ul li .three_right_span2 {
+	color: #5a5b5b;
+	font-family: "宋体";
+	font-style: italic;
+}
+.part3 .three_right .three_right_down .three_right_left, 
+.part3 .three_right .three_right_down .last_quote {
+	float: left;
+}
+.part3 .three_right .three_right_down .three_right_left {
+	background: #d45d5c;
+	width: 238px;
+	height: 86px;
+	padding: 37px 0 37px 16px;
+}
+.part3 .three_right .three_right_down .last_quote {
+	width: 166px;
+	padding: 16px;
+}
+.part3 .three_right .three_right_down .three_right_left h1 {
+	float: left;
+	color: #fff;
+	font-size: 110px;
+	line-height: 86px;
+	border-right: 2px #fff solid;
+	margin-right: 6px;
+}
+.part3 .three_right .three_right_down .three_right_left h2 {
+	color: #fff;
+	font-size: 21px;
+	font-family: '黑体';
+}
+.part3 .three_right .three_right_down .three_right_left p {
+	color: #fff;
+	font-family: '黑体';
+	margin-bottom: 6px;
+}
+.part3 .three_right .three_right_down .last_quote p {
+	color: #5a5b5b;
+	font:italic 14px/16px "SimHei";
+}
+.part3 .three_right .three_right_down .last_quote .mark_one,
+.part3 .three_right .three_right_down .last_quote .mark_two {
+	font: normal 72px '黑体';
+	color: #d45d5c;
+	display: inline-block;
+	height: 30px;
+	width: 30px;
+}
+.part3 .three_right .three_right_down .last_quote .mark_one {
+	float: left;
+	margin: -16px 40px 0 -40px;
+}
+.part3 .three_right .three_right_down .last_quote .mark_two {
+	float: right;
+}
+
+.underline3 {
+	clear: both;
+	border: 1px #938e8c solid;
+}
+#url2 {
+	float: right;
+	color: #d45d5c;
+	font-family: '黑体';
+}
