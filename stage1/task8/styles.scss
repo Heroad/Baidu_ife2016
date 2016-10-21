@@ -1,0 +1,64 @@
+$pdValue: 10px;
+$bdValue: 1px;
+$bdColor: #999;
+$bgColor: #eee;
+$height: 50px;
+
+@mixin resetCss{
+  margin: 0;
+  padding: 0;
+}
+@mixin clearFix {
+  content: '';
+  display: table;
+  clear: both;
+}
+@mixin boxSize {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+@mixin outerStyle {
+  padding: $pdValue;
+  float: left;
+  @include boxSize;
+}
+@mixin innerStyle {
+  border: $bdValue solid $bdColor;
+  background: $bgColor;
+  height: $height;
+}
+@mixin generateGrid($level) {
+  @for $i from 1 through 12 {
+    .col-#{$level}-#{$i} {
+      width: (100%/12*$i);
+    }
+  }
+}
+
+html,body {
+  @include resetCss;
+}
+.container {
+  width: 100%;
+  padding: $pdValue;
+  @include boxSize;
+}
+.container:before, .container:after {
+  @include clearFix;
+}
+.outer {
+  @include outerStyle;
+}
+.inner {
+  @include innerStyle;
+}
+
+@media (max-width: 768px) {
+  @include generateGrid(sm);
+}
+@media (min-width: 769px) {
+  @include generateGrid(md);
+}
+
+
