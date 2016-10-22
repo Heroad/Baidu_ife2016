@@ -1,0 +1,66 @@
+$width: 150px;
+$pdValue: 10px;
+$bdValue: 1px;
+$bdColor: #f00;
+$mgValue: 10px;
+
+
+@mixin resetCss {
+  margin:0;
+  padding:0;
+}
+@mixin container {
+  padding: $pdValue;
+  width: 100%;
+}
+@mixin boxSizing {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+@mixin itemStyle {
+  width: $width;
+  @include boxSizing;
+  border: $bdValue solid $bdColor;
+  order:1;
+  margin: $mgValue;
+}
+@mixin changeStyle($flag) {
+  @if $flag == md {
+    .flex-container {
+      align-items: center;
+    }
+  } @else {
+    .flex-container {
+      align-items: flex-start;
+    }
+    #final {
+      order:0;
+    }
+  }
+}
+
+html,body,ul {
+  @include  resetCss;
+}
+.flex-container {
+  @include container;
+  @include boxSizing;
+  display:flex;
+  flex-flow:row wrap;
+  justify-content:space-between;
+}
+.flex-item {
+  @include itemStyle;
+}
+#final {
+  border: $bdValue solid #00f;
+}
+
+@media (min-width: 641px) {
+  @include changeStyle(md);
+}
+
+@media (max-width: 640px) {
+  @include changeStyle(false);
+}
