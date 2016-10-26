@@ -1,0 +1,228 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+a, img {
+  -webkit-touch-callout: none; }
+
+a {
+  text-decoration: none; }
+
+html, body {
+  font-family: "Helvetica Neue", Helvetica, STHeiTi, sans-serif;
+  font-size: 20px;
+  background: #dedede; }
+
+.container {
+  max-width: 36rem;
+  margin: 0 auto; }
+  .container section {
+    background: #ffffff; }
+  .container header {
+    max-width: 36rem;
+    width: 100%;
+    top: 0;
+    position: fixed;
+    background: #91d4da;
+    height: 2rem;
+    line-height: 2rem;
+    font-size: 0.75rem; }
+    .container header a {
+      position: absolute;
+      color: #ffffff;
+      padding-left: 1rem; }
+      .container header a .arrowL {
+        border: solid #ffffff;
+        border-width: 0 .1rem .1rem 0;
+        display: inline-block;
+        padding: .30rem;
+        -webkit-transform: rotate(135deg);
+        -moz-transform: rotate(135deg);
+        -ms-transform: rotate(135deg);
+        -o-transform: rotate(135deg);
+        transform: rotate(135deg);
+        margin-right: -0.3rem; }
+    .container header h1 {
+      text-align: center;
+      color: #ffffff; }
+  .container nav {
+    margin-top: 2rem;
+    background: #ffffff;
+    display: flex;
+    flex-flow: row wrap; }
+    .container nav a {
+      width: 20%;
+      height: 2rem;
+      line-height: 2rem;
+      text-align: center;
+      font-size: 1rem;
+      color: #000;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box; }
+    .container nav a.active, .container nav a:hover {
+      border-bottom: 0.125rem solid #91d4da; }
+  .container .slideShow img {
+    width: 100%; }
+  .container .sec2 {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0 2%; }
+    .container .sec2 .sec2_up {
+      width: 100%;
+      display: flex;
+      flex-flow: row wrap;
+      padding: 3% 0;
+      border-bottom: 0.1rem solid #dedede; }
+      .container .sec2 .sec2_up .tag {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        width: 20%;
+        height: 5rem;
+        text-align: center;
+        padding: 0.7rem; }
+        .container .sec2 .sec2_up .tag p {
+          margin-top: 1rem;
+          font-size: 0.8rem; }
+    .container .sec2 .sec2_down {
+      padding: 2rem 0;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      width: 100%;
+      display: flex;
+      flex-flow: row wrap; }
+      .container .sec2 .sec2_down .col {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        width: 33.33333%;
+        text-align: center; }
+        .container .sec2 .sec2_down .col .col_img {
+          display: flex;
+          flex-flow: row wrap;
+          align-items: center;
+          justify-content: center;
+          height: 10rem; }
+          .container .sec2 .sec2_down .col .col_img img {
+            width: 60%; }
+        .container .sec2 .sec2_down .col h1 {
+          font-size: 1.5rem; }
+        .container .sec2 .sec2_down .col h2 {
+          font-size: 1.2rem;
+          margin: 0.8rem 0 0 0;
+          color: gray; }
+      .container .sec2 .sec2_down .col:nth-child(n+2) {
+        border-left: 0.125rem solid #dedede; }
+  .container .module, .container .articleSec {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-top: 1rem;
+    padding: 0.6rem;
+    width: 100%; }
+  .container .module h1 {
+    font-size: 1.6rem;
+    color: gray; }
+  .container .module hr {
+    margin: 0.8rem 0;
+    border: 1px solid #dedede; }
+  .container .module .module_part {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap; }
+  .container .module .module_l {
+    width: 25%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
+    .container .module .module_l img {
+      width: 100%;
+      margin: 0.3rem 0;
+      border: 1px solid #ffcc00; }
+  .container .module .module_r {
+    width: 72%;
+    margin-left: 3%;
+    text-align: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around; }
+    .container .module .module_r .headings {
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      background: #dedede;
+      height: 2rem;
+      width: 46%;
+      line-height: 2rem;
+      font-size: 1rem; }
+  .container .articleSec {
+    padding: 0 0.6rem; }
+    .container .articleSec article:nth-child(n+2) {
+      border-top: 2px solid #dedede; }
+    .container .articleSec article {
+      padding: 0.8rem 0; }
+      .container .articleSec article h1 {
+        font-size: 1.1rem; }
+      .container .articleSec article p {
+        font-size: 0.8rem;
+        color: gray; }
+    .container .articleSec .arti {
+      display: flex;
+      flex-flow: row wrap; }
+      .container .articleSec .arti img {
+        width: 35%; }
+      .container .articleSec .arti .item-title {
+        width: 60%;
+        margin-left: 5%;
+        display: flex;
+        flex-flow: row wrap; }
+        .container .articleSec .arti .item-title p {
+          align-self: flex-end; }
+    .container .articleSec article:last-child .img-l {
+      display: flex;
+      flex-flow: row wrap;
+      width: 93%;
+      justify-content: space-between; }
+      .container .articleSec article:last-child .img-l img {
+        width: 31%; }
+    .container .articleSec article:last-child h1 {
+      margin-bottom: 0.4rem; }
+    .container .articleSec article:last-child p {
+      margin-top: 0.4rem; }
+
+/*# sourceMappingURL=mobile.css.map */
